@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background: blue;
+}
+
+.container{
+  background: #555;
+  height: 80vh; /*80% based on height*/
+  position: relative;
+}
+
+.elemento{ 
+  background: #000;
+  color: #fff;
+  position: absolute;  /*vai se basear na .container que é relative*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /*translate(x,y)*/
+}
+
+@media (max-width: 480px){
+
+}
